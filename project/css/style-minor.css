@@ -1,0 +1,82 @@
+.minor-page .title-section-container {
+    margin: 100px 0 auto;
+    background: #f39801;
+}
+
+.minor-page .title-section-container .inner-container {
+    padding: 0;
+}
+
+.minor-page h1 {
+    font-size: 34px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 0 0 0;
+    margin: 0 0 5px 0;
+}
+
+.minor-page .breadcrumb {
+    padding: 0 0 25px 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.minor-page .title-section-container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.minor-page .title-section-container a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.minor-page .title-section-container span {
+    text-decoration: none;
+    padding: 0 0 0 15px;
+}
+
+.minor-page .title-section-container span:before {
+    display: inline-block;
+    content: '»';
+    padding: 0 15px 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .minor-page h1 {
+        font-size: 30px;
+        padding: 13px 0 0 0;
+    }
+
+    .minor-page .breadcrumb {
+        padding: 0 0 20px 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    
+    .minor-page .title-section-container {
+        margin: 70px 0 auto;
+    }
+    
+    .minor-page h1 {
+        font-size: 24px;
+        padding: 10px 0 0 0;
+    }
+
+    .minor-page .breadcrumb {
+        padding: 0 0 15px 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .minor-page .title-section-container .inner-container {
+        text-align: center;
+    }
+    
+    .minor-page h1 {
+        font-size: 22px;
+    }
+}

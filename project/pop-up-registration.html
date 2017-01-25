@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <div class="pop-up-registration mfp-hide" id="pop-up-registration">
+        <p>Для того, чтобы записаться на пробное занятие, нам нужно познакомиться :)</p>
+        <form action="#" method="POST" name="PopUpRegistration" class="pop-up-registration-form">
+            <input type="text" name="user-name" class="user-name" placeholder="Ваше имя" required>
+            <select name="language-level" class="language-level">
+                <option value="" disabled selected>Ваш уровень владения китайским</option>
+                <option value="zero">Нулевой</option>
+                <option value="basic">Базовый</option>
+                <option value="medium">Начальный/Средний</option>
+                <option value="upper">Высший</option>
+            </select>
+            <select name="trial-lesson-date" required class="trial-lesson-date">
+                 <option value="" disabled selected>Удобное время занятия</option>
+                 <option value="weekdays">Будни - 19:30</option>
+                 <option value="weekend">Выходные - 16:15</option>
+            </select>
+            <input type="email" name="user-email" placeholder="Контактный e-mail">
+            <input type="text" class="user-phone" name="user-phone" placeholder="Контактный номер телефона" required>
+            <span class="phone-explanations">* - преподаватель позвонит вам, чтобы уточнить дату занятия</span>
+            <textarea name="user-comment" cols="30" rows="3" placeholder="Комментарии"></textarea>
+            <button type="submit" name="submit" class="submit-button">Всё верно, отправить!</button>
+        </form>
+    </div>
+</html>

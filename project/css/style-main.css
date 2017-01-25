@@ -1,0 +1,1161 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main {
+    z-index: 1;
+    position: relative;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
+
+h2:after,
+h3:after,
+h4:after{
+    display: block;
+    content: '';
+    height: 3px;
+}
+
+h2:after {
+    margin: 22px auto 0;
+    max-width: 550px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 35px;
+    text-align: left; 
+    width: 80%;
+    color: #263238;
+    margin-top: 60px;
+}
+
+h3:after {
+    margin-top: 22px;
+    width: 485px;
+    background: #f39801; 
+}
+
+.outer-container {
+    position: relative;
+    overflow: hidden;
+    min-width: 320px;
+}
+
+.inner-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.content {
+    position: relative;
+}
+
+.top-section {
+    background: 
+        linear-gradient(to right, #ffffff, transparent 55%), 
+        linear-gradient(to right, #ffffff, transparent 40%), 
+        linear-gradient(to right, #ffffff, transparent 65%), 
+        linear-gradient(to right, #ffffff, transparent 50%), 
+        url("../images/top-background3.jpg") no-repeat right top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top-section .content {
+    text-align: center;
+}
+
+.name-point {
+    max-width: 400px;
+    margin: 180px 50px 50px 0;
+}
+
+.name {
+    font: 700 88px Open Sans, sans-serif;
+    line-height: 88px;
+    text-align: left;
+}
+
+.name-point .name:after {
+    display: block;
+    content: '';
+    margin: 22px auto 0;
+    width: 100%;
+    height: 4px;
+    background: #f39801;  
+}
+
+.name-point p {
+    font-size: 24px;
+    text-align: left;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.registration-button {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #d6640b;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    background: #ec7404;
+    box-shadow: 0px 4px 0px 0px #d6640b;
+    border-radius: 3px;
+    transition: 0.1s;
+}
+
+.registration-button:hover {
+    background: #d6640b;
+}
+
+.registration-button:active {
+    background: #C75700;
+}
+
+.orange-section {
+    background: #f39801;
+}
+
+.orange-section h2 {
+    color: #fff;
+}
+
+.orange-section h2:after {
+    background: #d6640b;  
+}
+
+.white-section {
+    background: #fff;
+}
+
+.white-section h2 {
+    color: #263238;
+}
+
+.white-section h2:after {
+    background: #f39801;  
+}
+
+.description {
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+.description p {
+    color: #101010;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.orange-section .description {
+    color: #fff;
+}
+
+.online-academy-section .inner-container {
+    padding: 0;
+}
+
+.online-academy-section .description {
+    float: left;
+}
+
+.online-academy-section .description p {
+    color: #272727;
+}
+
+.online-academy-section .description p:first-letter {
+    font-size: 30px;
+    color: #d6640b;
+    font-weight: 500;
+}
+
+.computer {
+    float: right;
+    max-width: 860px;
+    margin-right: -270px;
+}
+
+.advantage-section {
+    background: #ec7404;
+}
+
+.advantage-section .inner-container {
+    padding-bottom: 30px;
+}
+
+.advantage-section .content {
+    margin-top: 30px;
+}
+
+.advantage-section .advantage-container {
+    text-align: center;
+    margin: 70px 0 40px;
+}
+
+.advantage-section .advantage {
+    display: inline-block;
+    max-width: 310px;
+    margin-left: 80px;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 15px;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.advantage-section .advantage img {
+    margin-bottom: 10px;
+}
+
+.advantage-section .advantage h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.advantage-section .advantage h4:after {
+    height: 1px;
+    max-width: 145px;
+    text-align: center;
+    margin: 20px auto 0;
+    background: #f39801;
+}
+
+.advantage-container .advantage:first-of-type   {
+    margin-left: 0;
+}
+
+.advantage-container .advantage:last-of-type   {
+    max-width: 260px;
+}
+
+.review-section .content {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review-section .content a {
+    text-decoration: none;
+    color: #d6640b;
+}
+
+.review-section .content a:hover {
+    border-bottom: 1px solid;
+}
+
+.review-section h2:after {
+    background: #f39801;  
+}
+
+.review-section .overall-words {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 40px auto 55px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.review-section .reviews-container {
+    font-size: 13px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.review {
+    display: inline-block; 
+    position: relative;
+    vertical-align: top;
+    max-width: 350px;
+    padding-right: 70px;
+}
+
+.review:last-child {
+    padding-right: 0;
+}
+
+.about-student {
+    display: block;
+    float: left;
+    max-width: 70px;    
+}
+
+.photo {
+    display: block;
+    height: 70px;
+    max-width: 70px;
+    background: url("../images/avatar.png") no-repeat;
+    background-size: 70px 70px;
+    border-radius: 50%;
+}
+
+.student-name, .student-age {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;    
+    color: #878787;
+}
+
+.review-text {
+    padding-left: 100px;
+}
+
+.scheme-section .inner-container {
+    background: url(../images/ruler.png) no-repeat center 155px;
+    background-size: 41px 305px;
+    padding-bottom: 70px;
+}
+
+.scheme-section h2 {
+    margin-bottom: 75px;
+}
+
+.scheme-section p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 100;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.right {
+    text-align: left;
+    margin-left: 57%
+}
+
+.left {
+    text-align: right;
+    margin-right: 57%
+}
+
+.right p:before,
+.left p:after {
+    display: inline-block;
+    content: '';
+    width: 48px;
+    vertical-align: middle;
+    background: url(../images/sprite-scheme.png) no-repeat;
+}
+
+.right p:before {
+    margin-right: 20px;
+}
+
+.left p:after {
+    margin-left: 20px;
+}
+
+.registration-point{
+    margin-bottom: 31px;
+}
+
+.registration-point p:before {
+    background-position: 0 0;
+    height: 31px;
+}
+
+.lesson-point {
+    margin-bottom: 27px;
+}
+
+.lesson-point p:after {
+    background-position: -48px 0;
+    height: 39px;
+}
+
+.schedule-point {
+    margin-bottom: 27px;
+}
+
+.schedule-point p:before {
+    background-position: -95px 0;
+    height: 39px;
+}
+
+.pay-point {
+    margin-bottom: 31px;
+}
+
+.pay-point p:after {
+    background-position: -142px 0;
+    height: 39px;
+}
+
+.education-point {
+    margin-bottom: 6px;
+}
+
+.education-point p:before {
+    background-position: -191px 0;
+    height: 31px;
+}
+
+.bottom-section .inner-container {
+    padding: 0;
+}
+
+.bottom-section .content {
+    margin: 0;
+}
+
+.bottom-section .registration-button {
+    margin-top: 30px;
+}
+
+.bottom-section ul {
+    display: block;
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.bottom-section ul li:before {
+    display: inline-block;
+    content: '—';
+    margin-right: 10px;
+}
+
+.advantages {
+    float: left;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.advantages ul {
+    text-align: left;
+}
+
+.people {
+    max-width: 700px;
+    float: right;
+    margin-right: -200px;
+}
+
+footer {
+    background-color: #ec7404;
+    color: #fff;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+footer .inner-container {
+    padding: 35px 0; 
+}
+
+footer p {
+    display: inline-block;
+    margin: 0;
+}
+
+.footer-menu {
+    display: inline-block;
+    float: right;
+    font-size: 25px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    transition-duration: 0.1s;
+}
+
+.footer-menu a:first-of-type {
+    margin-left: 0;
+}
+
+.footer-menu a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .inner-container {
+        width: 900px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        margin: 40px 0 30px 0;
+    }
+
+    h2:after {
+        margin: 16px auto 0;
+        max-width: 500px;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    h3:after {
+        margin-top: 16px;
+        width: 435px;
+    }
+    
+    .name-point {
+    max-width: 370px;
+    margin: 150px 50px 50px 0;
+    }
+
+    .name {
+    font-size: 80px;
+    line-height: 80px;
+    }
+
+    .name-point p {
+    font-size: 22px;
+    }
+    
+    .registration-button {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    
+    .description p {
+    font-size: 14px;
+    line-height: 27px;
+    }
+    
+    .computer {
+    max-width: 760px;
+    margin-right: -330px;
+    }
+    
+    .online-academy-section .description p:first-letter {
+    font-size: 25px;
+    }
+    
+    .advantage-section .advantage {
+    max-width: 300px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    }
+
+    .advantage-section .advantage h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .advantage-section .advantage h4:after {
+        max-width: 145px;
+        margin: 17px auto 0;
+    }
+
+    .advantage-container .advantage:first-of-type   {
+        max-width: 280px;
+    }
+
+    .advantage-container .advantage:last-of-type   {
+        max-width: 250px;
+    }
+
+    .review-section .overall-words {
+        max-width: 850px;
+        margin: 30px auto 50px;
+    }
+
+    .review-section .reviews-container {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    .review {
+        max-width: 270px;
+        padding-right: 35px;
+    }
+
+    .review-text {
+        padding-left: 90px;
+    }
+    
+    .student-name, .student-age {
+    font-size: 12px;
+    }
+
+    .scheme-section .inner-container {
+    background: url(../images/ruler.png) no-repeat center 135px;
+    background-size: 41px 305px;
+    padding-bottom: 70px;
+    }
+
+    .scheme-section h2 {
+        margin-bottom: 65px;
+    }
+
+    .scheme-section p {
+        font-size: 16px;
+    }
+
+    .bottom-section ul {
+        max-width: 450px;
+        font-size: 15px;
+        line-height: 35px;
+        margin: 0;
+    }
+    
+    .people {
+        max-width: 610px;
+        margin-right: -220px;
+    }
+
+}
+
+@media screen and (max-width: 959px) {
+    
+    .inner-container {
+        width: 700px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin: 35px 0 25px 0;
+    }
+
+    h2:after {
+        margin: 12px auto 0;
+        max-width: 400px;
+        height: 2px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        width: 90%;
+        text-align: center;
+        margin: 50px auto 0;
+    }
+
+    h3:after {
+        margin: 16px auto 35px;
+        width: 360px;
+        height: 2px;
+    }
+    
+    .name-point {
+        max-width: 325px;
+    }
+
+    .name {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .name-point .name:after {
+        margin: 22px auto 0;
+        height: 3px;  
+    }
+
+    .name-point p {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    
+    .registration-button {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding: 13px 25px;
+    }
+    
+    .online-academy-section .description {
+        float:none;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    
+    .description p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    
+    .computer {
+        width: 760px;
+        margin: 30px -140px 0 0;
+    }
+
+    .advantage-section .advantage {
+        display: block;
+        max-width: 310px;
+        margin: 70px auto 0;
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .advantage-section .advantage h4 {
+        font-size: 20px;
+    }
+
+    .advantage-section .advantage h4:after {
+        max-width: 145px;
+        margin: 15px auto 0;
+    }
+    
+    .advantage-container .advantage:first-of-type   {
+        max-width: 310px;
+        margin: 70px auto 0;
+    }
+
+    .advantage-container .advantage:last-of-type   {
+        max-width: 310px;
+    }
+    
+    .review-section .overall-words {
+        max-width: 675px;
+        margin: 30px auto 40px;
+        font-size: 16px;
+    }
+
+    .review-section .reviews-container {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .review {
+        display: block; 
+        max-width: 500px;
+        padding-right: 0;
+        margin: 0 auto 50px;
+    }
+    
+    .review:last-of-type {
+        margin: 0 auto;
+    }
+
+    .student-name, .student-age {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .review-text {
+        padding-left: 110px;
+    }
+    
+    .scheme-section .inner-container {
+        background: url(../images/ruler.png) no-repeat center;
+        background-position: 110px 100px;
+        background-size: 41px 305px;
+        padding-bottom: 30px;а
+    }
+
+    .scheme-section h2 {
+        margin-bottom: 50px;
+    }
+
+    .scheme-section p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .right {
+        text-align: left;
+        margin-left: 27%;
+    }
+
+    .left {
+        text-align: left;
+        margin-left: 27%;
+        margin-right: 0;
+    }
+    
+    .left p:after {
+        display: none;  
+    }
+
+    .right p:before {
+        margin-right: 20px;
+    }
+    
+    .left p:before {
+        display: inline-block;
+        content: '';
+        width: 48px;
+        vertical-align: middle;
+        background: url(../images/sprite-scheme.png) no-repeat;
+    }
+    
+    .left p:before {
+        margin: 0 20px 0 0;
+    }
+    
+    .lesson-point p:before {
+        background-position: -48px 0;
+        height: 39px;
+    }
+
+    .pay-point p:before {
+        background-position: -142px 0;
+        height: 39px;
+    }
+    
+    .bottom-section ul {
+        max-width: 90%;
+        font-size: 15px;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+    
+    .people {
+        max-width: 610px;
+        margin-right: -60px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+        
+    .inner-container {
+        width: 460px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+
+    h2:after {
+        margin: 10px auto 0;
+        max-width: 300px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        width: 95%;
+        margin: 35px auto 0;
+    }
+
+    h3:after {
+        margin: 10px auto 20px;
+        width: 290px;
+    }
+    
+    .name-point {
+        max-width: 230px;
+        margin: 120px 50px 50px 0;
+    }
+
+    .name {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .name-point .name:after {
+        margin: 18px auto 0;
+        height: 2px;  
+    }
+
+    .name-point p {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    
+    .registration-button {
+        font-size: 16px;
+    }
+    
+    .description p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    
+    .online-academy-section .description {
+        max-width: 80%;
+    }
+    
+    .computer {
+        width: 500px;
+        margin: 15px -80px 0 0;
+    }
+    
+     .review-section .overall-words {
+        max-width: 85%;
+        margin: 30px auto 25px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .review {
+        max-width: 90%;
+        padding-right: 0;
+        margin: 0 auto 50px;
+    }
+    
+    .scheme-section .inner-container {
+        background: url(../images/ruler.png) no-repeat center;
+        background-position: 25px 90px;
+        background-size: 41px 305px;
+        padding-bottom: 30px;
+    }
+
+    .scheme-section h2 {
+        margin-bottom: 50px;
+    }
+
+    .scheme-section p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .right {
+        margin-left: 20%;
+    }
+
+    .left {
+        margin-left: 20%;
+    }
+    
+    .right p:before,
+    .left p:before {
+        margin-right: 15px;
+    }
+    
+    .people {
+        max-width: 500px;
+        margin-right: -95px;
+    }
+    
+    footer .inner-container {
+        text-align: center;
+        padding: 20px 0; 
+    }
+    
+    footer p {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-menu {
+        display: block;
+        float: none;
+    }
+    
+    .footer-menu a {
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .inner-container {
+        width: 300px;
+    }
+    
+    h2 {
+        font-size: 18px;
+        margin: 35px 0 20px 0;
+    }
+
+    h2:after {
+        margin: 8px auto 0;
+        max-width: 230px;
+        height: 1px;
+    }
+    
+    h3 {
+        font-size: 16px;
+        width: 85%;
+        margin: 25px auto 0;
+    }
+
+    h3:after {
+        margin: 10px auto 25px;
+        width: 130px;
+        height: 1px;
+    }
+    
+    .name-point {
+        max-width: 200px;
+        margin: 150px 50px 50px 0;
+    }
+
+    .name {
+        font-size: 43px;
+        line-height: 45px;
+    }
+
+    .name-point .name:after {
+        margin: 12px auto 0;
+    }
+
+    .name-point p {
+        font-size: 12px;
+    }
+    
+    .registration-button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    
+    .description p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .online-academy-section .description {
+        max-width: 90%;
+    }
+    
+    .online-academy-section .description p:first-letter {
+        font-size: 12px;
+        color: #101010;
+        font-weight: 400;
+    }
+    
+    .computer {
+        width: 400px;
+        margin: 15px -110px 0 0;
+    }
+    
+     .review-section .overall-words {
+        max-width: 85%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .review-section .reviews-container {
+        font-size: 11px;
+        line-height: 20px;
+        padding-bottom: 0;
+    }
+
+    .review {
+        max-width: 90%;
+        margin: 0 auto 40px;
+    }
+    
+     .student-name, .student-age {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .review-text {
+        padding-left: 80px;
+    }
+    
+    .about-student {
+        max-width: 55px;  
+    }
+
+    .photo {
+        height: 55px;
+        max-width: 55px;
+        background-size: 55px 55px;
+    }
+    
+    .advantage-section .advantage-container {
+        margin: 60px 0 30px;
+    }
+    
+    .advantage-section .advantage-container img {
+        max-width: 190px;
+        max-height: 150px;
+    }
+    
+    .advantage-section .advantage {
+        max-width: 80%;
+        margin: 50px auto 0;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .advantage-section .advantage h4 {
+        font-size: 16px;
+        margin: 16px auto 10px;
+    }
+
+    .advantage-section .advantage h4:after {
+        max-width: 145px;
+        margin: 8px auto 0;
+    }
+    
+    .advantage-container .advantage:first-of-type   {
+        max-width: 80%;
+        margin: 40px auto 0;
+    }
+
+    .advantage-container .advantage:last-of-type   {
+        max-width: 80%px;
+    }
+    
+    .scheme-section .inner-container {
+        background-position: 5px 70px;
+        background-size: 30px 225px;
+    }
+
+    .scheme-section h2 {
+        margin-bottom: 40px;
+    }
+
+    .scheme-section p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .right {
+        margin-left: 17%;
+    }
+
+    .left {
+        margin-left: 17%;
+    }
+    
+    .right p:before,
+    .left p:before {
+        margin-right: 0;
+        display: none;
+    }
+    
+    .advantages {
+        margin-bottom: 30px;
+    }
+    
+    .bottom-section ul {
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    
+    .people {
+        max-width: 350px;
+        margin-right: -80px;
+    }
+    
+    footer {
+        font-size: 12px;
+        line-height: 35px;
+    }
+    
+    footer .inner-container {
+        padding: 20px 0; 
+    }
+}

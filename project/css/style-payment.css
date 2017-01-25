@@ -1,0 +1,248 @@
+.payment .explanations {
+    color: #5C5C5C;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 50px 0 0 0;
+}
+
+.payment .tariff-container {
+    margin: 50px 0 50px;
+    color: #fff;
+}
+
+.payment .tariff {
+    display: inline-block;
+    width: 370px;  
+    text-align: center;
+    margin: 0 40px 0 0;
+    background: #F0F0F0;
+    border-radius: 5px;
+}
+
+.payment .tariff:hover {
+    background: #F5F5F5;
+}
+
+.payment .tariff:last-of-type {
+    margin: 0 0 0 0;
+}
+
+.payment .tariff .color-wrapper {
+    background: #019D7A; 
+    border-radius: 3px 3px 0 0;
+}
+
+.payment .tariff:hover .color-wrapper {
+    background: #019D54;
+    transition-duration: 0.1s;
+}
+
+.payment .tariff h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600; 
+    margin: 0 0 0 0;
+    padding: 45px 0 0 0;
+}
+
+.payment .tariff h2:after {
+    background: #F9C671;
+    max-width: 130px;
+    height: 2px;
+    margin: 15px auto 0;
+}
+
+.payment .tariff .price {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.payment .tariff .time {
+    padding: 0 0 55px;
+}
+
+.payment .tariff .notes {
+    max-width: 70%;
+    margin: 40px auto 30px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #5C5C5C;
+}
+
+.payment .repayment {
+    color: #808080;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.payment .repayment a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.payment .repayment a:hover {
+    text-decoration: underline;
+}
+
+.payment .tariff .registration-button {
+    margin: 20px 0 20px 0;
+    background-color: #F9B33F;
+    text-shadow: none;
+    box-shadow: 0px 4px 0px 0px #F39801;
+    text-shadow: 1px 1px 2px #F39801;
+}
+
+.payment .tariff:hover .registration-button {
+    background-color: #F38301;
+    box-shadow: 0px 4px 0px 0px #E36D02;
+}
+
+.payment .tariff:hover .registration-button:hover {
+    background: #F35E01; 
+    box-shadow: 0px 4px 0px 0px #C75E00;
+}
+
+.payment .tariff:hover .registration-button:active {
+    background: #F35E01;
+    box-shadow: 0px 3px 0px 0px #C75E00;
+    transform: translateY(1px);
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .payment .inner-container {
+        padding-bottom: 30px;
+    }
+    
+    .payment .explanations {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 30px 0 0 0;
+    }
+    
+    .payment .tariff-container {
+        margin: 40px 0 40px;
+    }
+    
+    .payment .tariff {
+        width: 280px;  
+        margin: 0 25px 0 0;
+    }
+    
+    .payment .tariff h2 {
+        font-size: 20px;
+        padding: 40px 0 0 0;
+    }
+
+    .payment .tariff h2:after {
+        max-width: 110px;
+        margin: 13px auto 0;
+    }
+
+    .payment .tariff .price {
+        font-size: 50px;
+        padding: 25px 0;
+    }
+
+    .payment .tariff .time {
+        padding: 0 0 50px;
+        font-size: 14px;
+    }
+
+    .payment .tariff .notes {
+        max-width: 75%;
+        margin: 30px auto 25px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .payment .repayment {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .payment .tariff .registration-button {
+        margin: 15px 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    
+    .payment .tariff-container {
+        margin: 40px 0 40px;
+    }
+    
+    .payment .tariff {
+        width: 220px;  
+        margin: 0 15px 0 0;
+    }
+    
+    .payment .tariff h2 {
+        font-size: 18px;
+        padding: 30px 0 0 0;
+    }
+
+    .payment .tariff h2:after {
+        max-width: 90px;
+        margin: 10px auto 0;
+    }
+
+    .payment .tariff .price {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+
+    .payment .tariff .time {
+        padding: 0 0 40px;
+    }
+
+    .payment .tariff .notes {
+        max-width: 85%;
+        margin: 25px auto 20px;
+    }
+    
+    .payment .tariff .registration-button {
+        margin: 10px 0 10px 0;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    
+    .payment .inner-container {
+        padding-bottom: 20px;
+    }
+    
+    .payment .content {
+        text-align: center;
+    }
+    
+    .payment .explanations {
+        text-align: left;
+        font-size: 13px;
+        line-height: 22px;
+        margin: 25px 0 0 0;
+    }
+    
+    .payment .tariff-container {
+        margin: 40px 0 30px;
+    }
+    
+    .payment .tariff {
+        width: 270px;  
+        margin: 0 0 25px 0;
+    }
+    
+    .payment .repayment {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .payment .explanations {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

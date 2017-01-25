@@ -1,0 +1,359 @@
+/* ----- Header Style -------- */
+/* ----- Стили заголовка ----- */
+
+header.outer-container {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    transition: 0.4s;
+}
+
+header .inner-container {
+    padding: 0;
+}
+
+.menu-container {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-variant: small-caps;
+    line-height: 100px;
+    height: 100px;
+    padding-left: 150px;
+}
+
+.logo {
+    background: url(../images/logo.svg) no-repeat left top;
+    float: left;
+    height: 50px;
+    width: 110px;
+    margin-top: 25px;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: #6f7072;
+    margin-right: 55px;
+}
+
+.main-menu {
+    display: inline-block;
+}
+
+.main-menu a {
+    padding-bottom: 8px;
+    transition-duration: 0.1s;
+    color: #263238;
+}
+
+.main-menu a:hover {
+    border: none;
+    border-bottom: solid 3px #191919;
+}
+
+.main-menu a:active {
+    border: none;
+    color: #f39801;
+}
+
+.right-wrapper {
+    display: inline-block;
+    float: right;
+    max-height: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.aca-phone {
+    font-family: 'Open Sans';
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+}
+
+.login-menu {
+    display: block;
+    margin: 15px 0 10px;
+}
+
+.login-menu a {
+    display: inline-block;
+    color: #fff;
+    transition-duration: 0.1s;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.login-menu a:last-child {
+    margin-right: 0;
+}
+
+.login-menu a:active {
+    color: #f39801;
+}
+
+.login:before,
+.registration:before {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 23px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url("../images/sprite-login.png") no-repeat;
+}
+
+.login:before {
+    background-position: 0 0;
+}
+
+.login:hover:before {
+    background-position: 0 -23px;
+}
+
+.registration:before {
+    background-position: -20px 0px;
+}
+
+.registration:hover:before {
+    background-position: -20px -23px;
+}
+
+header.active {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header.active a {
+    color: #263238;
+}
+
+header.active .aca-phone {
+    color: #263238;
+}
+
+header.active .login:before {
+    background-position: 0 -46px;
+}
+
+header.active .registration:before {
+    background-position: -20px -46px;
+}
+
+header.active .login:hover:before {
+    background-position: 0 -23px;
+}
+
+header.active .registration:hover:before {
+    background-position: -20px -23px;
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .menu-container {
+        font-size: 16px;
+        line-height: 80px;
+        height: 80px;
+        padding-left: 130px;
+    }
+    
+    .logo {
+        width: 90px;
+        margin-top: 18px;
+    }
+    
+    .menu-container a {
+        margin-right: 35px;
+    }
+    
+    .main-menu a {
+        padding-bottom: 6px;
+    }
+    
+    .main-menu a:hover {
+        border-bottom: solid 2px #191919;
+    }
+    
+    .login-menu {
+        margin: 10px 0 6px;
+    }
+    
+    .login-menu a {
+        margin-right: 20px;
+    }
+    
+    .login:before,
+    .registration:before {
+        margin-right: 6px;
+    }
+    
+    .right-wrapper {
+        max-height: 80px;
+        line-height: 25px;
+    }
+    
+    .aca-phone {
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    
+    .menu-container {
+        font-size: 15px;
+        padding-left: 120px;
+    }
+    
+    .menu-container a {
+        margin-right: 25px;
+    }
+    
+    .main-menu a {
+        padding-bottom: 4px;
+    }
+    
+    .main-menu a:hover {
+        border-bottom: solid 1px #191919;
+    }
+    
+    .login-menu {
+        margin: 15px 0 6px;
+    }
+    
+    .login-menu a {
+        margin-right: 8px;
+    }
+    
+    .login:after {
+        display: inline-block;
+        content: '|';
+        width: 3px;
+        height: 15px;
+        margin-left: 10px;
+        vertical-align: baseline;
+        color: #fff;
+    }
+    
+    header.active .login:after {
+        color: #263238;
+    }
+    
+    .right-wrapper {
+        line-height: 20px;
+    }
+    
+    .aca-phone {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .login:before,
+    .registration:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .logo {
+        width: 110px;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    
+    .menu-container {
+        font-size: 16px;
+        line-height: 80px;
+        height: 80px;
+        padding:0;
+        padding-left: 190px;
+    }
+    
+    /*.main-menu-toggle {
+        background: #d6640b; ;
+        padding: 10px 15px;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        line-height: 25px;
+    }
+    
+    .main-menu-toggle-icon {
+        background-image: url(/images/menu-icon.svg);
+    } */
+
+    .menu-container a {
+        margin-right: 25px;
+    }
+    
+    .login-menu {
+        margin: 13px 0 6px;
+    }
+    
+    .login-menu a {
+        margin-right: 20px;
+    }
+    
+    .login:after {
+        display: none;
+    }
+    
+    .login:before,
+    .registration:before {
+        display: inline-block;
+    }
+    
+    .right-wrapper {
+        max-height: 80px;
+        line-height: 25px;
+        float: left;
+    }
+    
+    .aca-phone {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .logo {
+        width: 90px;
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+    
+    .menu-container {
+        padding-left: 130px;
+    }
+    
+    .login-menu {
+        margin: 17px 0 6px;
+        font-size: 14px;
+    }
+    
+    .login-menu a {
+        margin-right: 6px;
+    }
+    
+    .login:after {
+        display: inline-block;
+    }
+    
+    .right-wrapper {
+        line-height: 20px;
+    }
+    
+    .aca-phone {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .login:before,
+    .registration:before {
+        display: none;
+    }
+}
