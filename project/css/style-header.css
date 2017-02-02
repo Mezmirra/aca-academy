@@ -148,6 +148,8 @@ header.active .registration:hover:before {
     background-position: -20px -23px;
 }
 
+/* ----- Breakpoint 1280 -------- */
+
 @media screen and (max-width: 1280px) {
     
     .menu-container {
@@ -197,6 +199,8 @@ header.active .registration:hover:before {
         font-weight: 400;
     }
 }
+
+/* ----- Breakpoint 960 -------- */
 
 @media screen and (max-width: 959px) {
     
@@ -253,6 +257,8 @@ header.active .registration:hover:before {
         display: none;
     }
 }
+
+/* ----- Breakpoint 768 -------- */
 
 @media screen and (max-width: 767px) {
     
@@ -317,6 +323,8 @@ header.active .registration:hover:before {
     }
     
 }
+
+/* ----- Breakpoint 480 -------- */
 
 @media screen and (max-width: 480px) {
     
