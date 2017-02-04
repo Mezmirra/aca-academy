@@ -73,7 +73,7 @@ h3:after {
         linear-gradient(to right, #ffffff, transparent 40%), 
         linear-gradient(to right, #ffffff, transparent 65%), 
         linear-gradient(to right, #ffffff, transparent 50%), 
-        url("../images/top-background3.jpg") no-repeat right top;
+        url("../images/top-background.jpg") no-repeat right top;
     background-size: cover;
     background-attachment: fixed;
 }
