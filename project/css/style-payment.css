@@ -202,10 +202,6 @@
         max-width: 85%;
         margin: 25px auto 20px;
     }
-    
-    .payment .tariff .registration-button {
-        margin: 10px 0 10px 0;
-    } 
 }
 
 @media screen and (max-width: 767px) {
